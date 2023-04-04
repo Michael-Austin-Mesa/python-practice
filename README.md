@@ -2,4 +2,4 @@
 repo of python practice sites for me to keep track of
 
 codingame
-- https://www.codingame.com/training/easy/onboarding
+- https://www.codingame.com/ide/puzzle/mars-lander-episode-1
