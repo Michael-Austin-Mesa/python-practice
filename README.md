@@ -1,5 +1,5 @@
 # python-practice
-- Repo of Python practice for me to keep track of.
+- Repo of Python practice for me to keep track of my journey in improving my Python skills.
 
 # CodinGame Puzzles
 ### My Mars Lander Episode 1 Solution
@@ -78,6 +78,37 @@ while True:
         
     # A single line providing the move to be made: N NE E SE S SW W or NW
     print(direction_y + direction_x)
+```
+___
+### My The Descent Puzzle Solution
+- https://www.codingame.com/training/easy/the-descent
+___
+```
+import sys
+import math
+
+# The while loop represents the game.
+# Each iteration represents a turn of the game
+# where you are given inputs (the heights of the mountains)
+# and where you have to print an output (the index of the mountain to fire on)
+# The inputs you are given are automatically updated according to your last actions.
+
+
+# game loop
+while True:
+    max=0
+    imax=0
+    for i in range(8):
+        mountain_h = int(input())  # represents the height of one mountain.
+        if mountain_h > max:
+            max = mountain_h
+            imax = i
+    # Write an action using print
+    # To debug: print("Debug messages...", file=sys.stderr, flush=True)
+
+    # The index of the mountain to fire on.
+    print(imax)
+
 ```
 ___
 ### My ASCII Art Puzzle Solution
