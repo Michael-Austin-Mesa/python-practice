@@ -1,6 +1,7 @@
 # python-practice
 - Repo of Python practice for me to keep track of my journey in improving my Python skills.
-
+# HackerRank Problems
+- https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
 # CodinGame Puzzles
 ### My Onboarding Puzzle Solution
 - https://www.codingame.com/training/easy/onboarding
